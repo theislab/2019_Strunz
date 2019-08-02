@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # downloads XXXGb dataset files
-wget https://hmgubox.helmholtz-muenchen.de/XXXXXXX -O 2019_Strunz.tar
+wget https://hmgubox.helmholtz-muenchen.de/f/492f4319237a464f9a28/ -O 2019_Strunz.tar
 mkdir data; cd data
 tar -xvf ../2019_Strunz.tar
