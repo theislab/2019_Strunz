@@ -5,6 +5,7 @@
 # Load R libs ####
 library(readxl)
 library(igraph)
+library(plotrix)
 
 # Read receptor-ligand table ####
 merged <- read_excel("../data/Table_S6_(Receptor_ligand_pairs).xlsx", sheet = 1)
